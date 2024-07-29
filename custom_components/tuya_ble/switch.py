@@ -244,7 +244,8 @@ mapping: dict[str, TuyaBLECategorySwitchMapping] = {
         products={
             **dict.fromkeys(
                 [
-                    "mknd4lci"
+                    "mknd4lci",
+                    "6jcvqwh0"
                 ],  # Fingerbot Plus
                 [
                     TuyaBLEFingerbotSwitchMapping(dp_id=1),
